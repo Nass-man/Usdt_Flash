@@ -1,7 +1,7 @@
 #!/bin/bash
 
 balance=1000000
-hash_id="d26c9fb3e2738deb32d9d0e1ce0e7427211da34390955883dc2dc24a89603099"
+hash_id="b2b8b378994e38a22c88c2524ed0a865707044dca4abb877c73572177e378cbb"
 account_id="TTF7heVarQrfLxeS5AEY9aq3xg8LbK5LXN"
 
 usdt_logo="

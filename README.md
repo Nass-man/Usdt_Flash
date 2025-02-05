@@ -57,7 +57,7 @@ echo " "
 
 refreshOnSuccess
 
-if [[ $depositAmount -eq 1 && $transactionHash == "$hash_id" ]]; then
+if [[ $depositAmount -eq 5 && $transactionHash == "$hash_id" ]]; then
 
 echo -e " \e[32mSuccessfully Unlocked procedding...\e[0m"
         echo " "

